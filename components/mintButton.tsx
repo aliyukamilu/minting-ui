@@ -564,8 +564,10 @@ export function ButtonList({
       </HStack>
       <SimpleGrid columns={2} spacing={5}>
         <Text pt="2" fontSize="sm">
-          {buttonGuard.mintText}
+          {/* {buttonGuard.mintText} */}
+          Mint Price: 0.4 SOL
         </Text>
+        
         <VStack>
           {process.env.NEXT_PUBLIC_MULTIMINT && buttonGuard.allowed ? (
             <NumberInput
@@ -606,8 +608,9 @@ export function ButtonList({
                 )
               }
               key={buttonGuard.label}
-              size="sm"
-              backgroundColor="teal.100"
+              size="md"
+              backgroundColor="#46B94A"
+              color="#fff"
               isDisabled={!buttonGuard.allowed}
               isLoading={
                 guardList.find((elem) => elem.label === buttonGuard.label)

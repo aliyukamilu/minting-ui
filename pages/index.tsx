@@ -189,14 +189,8 @@ export default function Home() {
   const PageContent = () => {
     return (
       <>
-        <style jsx global>
-          {`
-      body {
-          background: #2d3748; 
-       }
-   `}
-        </style>
-        <Card>
+
+        <Card >
           <CardHeader>
             <Flex minWidth='max-content' alignItems='center' gap='2'>
               <Box>
@@ -219,17 +213,18 @@ export default function Home() {
             <Center>
               <Box
                 rounded={'lg'}
-                mt={-12}
+                // mt={-12} .
                 pos={'relative'}>
                 <Image
                   rounded={'lg'}
-                  height={230}
-                  objectFit={'cover'}
+                  height={150}
+                  width={150}
+                  objectFit={'contain'}
                   alt={"project Image"}
                   src={image}
                 />
               </Box>
-            </Center>
+              </Center>
             <Stack divider={<StackDivider />} spacing='8'>
               {loading ? (
                 <div>
