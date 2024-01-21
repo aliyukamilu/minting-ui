@@ -562,7 +562,7 @@ export function ButtonList({
             )}
         </Flex>
       </HStack>
-      <SimpleGrid columns={2} spacing={5}>
+      <SimpleGrid columns={2} >
         <Text pt="2" fontSize="sm">
           {/* {buttonGuard.mintText} */}
           Mint Price: 0.4 SOL

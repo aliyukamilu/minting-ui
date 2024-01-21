@@ -190,12 +190,13 @@ export default function Home() {
     return (
       <>
 
-        <Card >
+        <Card className={styles.mainCard}>
           <CardHeader>
             <Flex minWidth='max-content' alignItems='center' gap='2'>
               <Box>
                 <Heading size='md'>{headerText}</Heading>
-              </Box>
+                
+              </Box> 
               {loading ? (<></>) : (
                 <Flex justifyContent="flex-end" marginLeft="auto">
                   <Box background={"teal.100"} borderRadius={"5px"} minWidth={"50px"} minHeight={"50px"} p={2} >
@@ -217,14 +218,19 @@ export default function Home() {
                 pos={'relative'}>
                 <Image
                   rounded={'lg'}
-                  height={150}
-                  width={150}
+                  height={200}
+                  width={200}
                   objectFit={'contain'}
                   alt={"project Image"}
                   src={image}
                 />
               </Box>
+
+              
               </Center>
+              <p style={{fontSize: 14, textAlign: "center", color: "#fff"}}>Le frok gives a chance to those collecting to win big!<br/>
+                  The more you mint, the bigger the prize.<br/>
+                  Frok around and find out.</p>
             <Stack divider={<StackDivider />} spacing='8'>
               {loading ? (
                 <div>

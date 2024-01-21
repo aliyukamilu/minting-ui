@@ -58,6 +58,24 @@ a {
   text-decoration: none;
 }
 
+.chakra-card {
+  background: #111827 !important;
+}
+
+.chakra-heading {
+  color: #fff;
+}
+
+.chakra-text.css-16vuq4 {
+  color: #fff;
+}
+
+.css-1szs79 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
