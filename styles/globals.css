@@ -71,9 +71,13 @@ a {
 }
 
 .css-1szs79 {
-  display: flex;
+  display: flex !important;
   justify-content: space-between;
   align-items: center;
+}
+
+.css-bjn565 {
+  background-color: #fff !important;
 }
 
 @media (prefers-color-scheme: dark) {
