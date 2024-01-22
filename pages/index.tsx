@@ -228,9 +228,9 @@ export default function Home() {
 
               
               </Center>
-              <p style={{fontSize: 14, textAlign: "center", color: "#fff"}}>Le frok gives a chance to those collecting to win big!<br/>
-                  The more you mint, the bigger the prize.<br/>
-                  Frok around and find out.</p>
+              <p style={{fontSize: 16, textAlign: "center", color: "#fff"}}>Le frok gives a chance to those collecting to win big! 
+                <br/>
+            Frok around and find out.</p>
             <Stack divider={<StackDivider />} spacing='8'>
               {loading ? (
                 <div>
