@@ -200,10 +200,11 @@ export default function Home() {
               {loading ? (<></>) : (
                 <Flex justifyContent="flex-end" marginLeft="auto">
                   <Box background={"teal.100"} borderRadius={"5px"} minWidth={"50px"} minHeight={"50px"} p={2} >
-                    <VStack >
+                    MINT OVER !
+                    {/* <VStack >
                       <Text fontSize={"sm"}>Available NFTs:</Text>
                       <Text fontWeight={"semibold"}>{Number(candyMachine?.data.itemsAvailable) - Number(candyMachine?.itemsRedeemed)}/{Number(candyMachine?.data.itemsAvailable)}</Text>
-                    </VStack>
+                    </VStack> */}
                   </Box>
                 </Flex>
               )}
